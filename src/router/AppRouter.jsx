@@ -25,6 +25,10 @@ const AppRouter = () => {
         <Route path="/profile" element={<Profile />} />
         <Route path="/payment" element={<Payment />} />
       </Routes>
+      
+
+
+      
       <Footer />
     </Router>
   );
