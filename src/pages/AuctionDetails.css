@@ -1,0 +1,15 @@
+.auction-details {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.auction-details img {
+  width: 100%;
+  border-radius: 8px;
+}
+.auction-details .bid-section {
+  margin-top: 20px;
+}

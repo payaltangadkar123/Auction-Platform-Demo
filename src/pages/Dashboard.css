@@ -1,0 +1,74 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.dashboard-header {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.stats-card {
+  background: #007bff;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.auctions-list {
+  margin-top: 20px;
+}
+
+.auction-item {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background: #f9f9f9;
+  transition: 0.3s;
+}
+
+.auction-item:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.auction-item h3 {
+  margin: 0;
+  color: #007bff;
+}
+
+.auction-item p {
+  color: #555;
+}
+
+.btn-view {
+  display: inline-block;
+  background-color:  #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-view:hover {
+  background-color: #007bff;
+}
