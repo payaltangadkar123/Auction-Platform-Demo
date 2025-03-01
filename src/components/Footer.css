@@ -1,0 +1,12 @@
+/* Footer Styling */
+.footer {
+    background: linear-gradient(to right, #c9302c, #c9302c);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1rem;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
